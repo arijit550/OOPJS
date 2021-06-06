@@ -1,0 +1,15 @@
+@import "./mixins";
+@import "./variables";
+
+
+body{
+    @include flexCenter(column);
+    @include h1Color(blue);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30em - 28em;
+
+}
